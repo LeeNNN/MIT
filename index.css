@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: '微软雅黑';
+}
+html {
+  height: 100%;
+}
+html body {
+  height: 100%;
+  background: #ebe9e9;
+}
+ul {
+  list-style-type: none;
+}
+.autoCenter {
+  width: 65%;
+  margin: 0 auto;
+}
+#head #myCarousel img {
+  width: 100%;
+}
+#head .threeBtn {
+  position: relative;
+  height: 38px;
+}
+#head .threeBtn .virusType {
+  position: absolute;
+  left: 0;
+  width: 120px;
+}
+#head .threeBtn .team {
+  position: absolute;
+  right: 75px;
+  width: 70px;
+}
+#head .threeBtn .help {
+  position: absolute;
+  right: 0;
+  width: 70px;
+}
+#head #teamModal .modal-body {
+  font-size: 26px;
+}
+#head #helpModal {
+  padding: 20px 10px;
+  background: #fff;
+  display: none;
+  width: 300px;
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  margin-left: -150px;
+  border-radius: 10px;
+}
+#head .chooseDisease {
+  color: #fff;
+  display: none;
+  width: 300px;
+  position: absolute;
+  z-index: 2;
+  background-color: #ddd;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+#head .chooseDisease div {
+  padding: 0 10px;
+  height: 40px;
+  line-height: 40px;
+}
+#head .chooseDisease div:hover {
+  color: #000;
+  cursor: pointer;
+  background-color: #fff;
+}
+#body {
+  height: 630px;
+  position: relative;
+}
+#body .bodyLeft {
+  position: absolute;
+  height: 100%;
+  width: 20%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  overflow: auto;
+}
+#body .bodyLeft button {
+  height: 60px;
+}
+#body .bodyRight {
+  position: absolute;
+  height: 100%;
+  width: 80%;
+  border: 1px solid green;
+  right: 0;
+}
+#body .bodyRight .Literature {
+  display: none;
+}
+#body .bodyRight .PublicationBias {
+  display: none;
+}
+#body .bodyRight .MetaAnalysis {
+  display: none;
+}
+#body .bodyRight .SubgroupMeta {
+  display: none;
+}
+#body .bodyRight .MetaRegression {
+  display: none;
+}
+#body .bodyRight .BayesiaMeta {
+  display: none;
+}
+#body .bodyRight .IndividualIncubation {
+  display: none;
+}
+#body .bodyRight .QPeriod {
+  display: none;
+}
+#body .bodyRight .CostOfACTIVE {
+  display: none;
+}
+#footer {
+  height: 100px;
+  background-color: lightgreen;
+}
